@@ -43,7 +43,7 @@
             const alphabetMaterial = new THREE.ShaderMaterial({
                 uniforms: {
                     lightPosition: { type: "v3", value: pointLight.position },
-                    ambientIntensity: { type: "f", value: 0.432 },
+                    ambientIntensity: { type: "f", value: 0.432 }, //232 + 200
                     diffuseColor: { type: "c", value: new THREE.Color(0x00ff00) },
                     specularColor: { type: "c", value: new THREE.Color(0xffffff) },
                     shininess: { type: "f", value: 30.0 }
@@ -83,7 +83,7 @@
             const digitMaterial = new THREE.ShaderMaterial({
                 uniforms: {
                     lightPosition: { type: "v3", value: pointLight.position },
-                    ambientIntensity: { type: "f", value: 0.432 },
+                    ambientIntensity: { type: "f", value: 0.432 }, //232 + 200
                     diffuseColor: { type: "c", value: new THREE.Color(0xff00ff) },
                     specularColor: { type: "c", value: new THREE.Color(0xff00ff) },
                     shininess: { type: "f", value: 50.0 }
